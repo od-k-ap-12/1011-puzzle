@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <RootNamespace>_1011_puzzle</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="images\11.png" />
+    <None Remove="images\12.png" />
+    <None Remove="images\13.png" />
+    <None Remove="images\21.png" />
+    <None Remove="images\22.png" />
+    <None Remove="images\23.png" />
+    <None Remove="images\31.png" />
+    <None Remove="images\32.png" />
+    <None Remove="images\33.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\11.png" />
+    <Resource Include="images\12.png" />
+    <Resource Include="images\13.png" />
+    <Resource Include="images\21.png" />
+    <Resource Include="images\22.png" />
+    <Resource Include="images\23.png" />
+    <Resource Include="images\31.png" />
+    <Resource Include="images\32.png" />
+    <Resource Include="images\33.png" />
+  </ItemGroup>
+
+</Project>
